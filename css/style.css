@@ -44,9 +44,9 @@ li {
   text-decoration: none;
   list-style-type: none;
   color: white;
-  align-items: center;
-  
+  align-items: center;  
 }
+
 
 a:hover {
   display: flex;
@@ -176,9 +176,11 @@ footer > div {
   
 }
 
-@media (max-width: 769px) {
+@media (max-width: 425px) {
   .header {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .container__cards {
     flex-direction: column;
